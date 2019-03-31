@@ -1,4 +1,5 @@
 # ThreeFive challenger Python impllementation
+[![CircleCI](https://circleci.com/gh/alvaropaco/py-three-five.svg?style=svg)](https://circleci.com/gh/alvaropaco/py-three-five)
 
 This repository expose a simple ThreeFive challenger implementation using
 a Docker image of Python 3.7 version.
