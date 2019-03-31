@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: install dependencies
+          command: |
+            docker build -t threefive .
+      - run:
+          name: run tests
+          command: |
+            docker run threefive 
